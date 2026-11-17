@@ -1,0 +1,25 @@
+{
+  "title": "仓储会员店优惠条件的来源采集",
+  "category": "仓储会员",
+  "choice": "会员等级",
+  "revision": "版本",
+  "detail_label": "优惠规则",
+  "entity": "活动",
+  "fact": "适用门店",
+  "items": [
+    {
+      "id": "member-a",
+      "name": "金卡返券活动",
+      "group": "甲",
+      "detail": "优惠规则甲",
+      "changed_detail": "优惠规则修订甲"
+    },
+    {
+      "id": "member-b",
+      "name": "普通卡待核活动",
+      "group": "乙",
+      "detail": "优惠规则乙",
+      "changed_detail": "优惠规则修订乙"
+    }
+  ]
+}
