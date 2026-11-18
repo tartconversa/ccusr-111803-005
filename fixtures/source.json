@@ -11,15 +11,82 @@
       "id": "member-a",
       "name": "金卡返券活动",
       "group": "甲",
-      "detail": "优惠规则甲",
-      "changed_detail": "优惠规则修订甲"
+      "catalog_ed1": {
+        "level": "甲",
+        "benefit": "满额返券",
+        "summary": "会员等级甲：满额返券"
+      },
+      "catalog_ed2": {
+        "level": "甲",
+        "benefit": "满额返券",
+        "summary": "会员等级甲：满额返券"
+      },
+      "scope_ed1": {
+        "stores": ["东城店", "西城店"],
+        "levels": ["甲"]
+      },
+      "scope_ed2": {
+        "stores": ["东城店"],
+        "levels": ["乙"]
+      },
+      "rule_ed1": "会员等级甲在东城店、西城店享满额返券，满500元返50元券",
+      "rule_ed2": "会员等级乙在东城店享折扣，全场9折",
+      "blank_ed1": [],
+      "blank_ed2": []
     },
     {
       "id": "member-b",
       "name": "普通卡待核活动",
       "group": "乙",
-      "detail": "优惠规则乙",
-      "changed_detail": "优惠规则修订乙"
+      "catalog_ed1": {
+        "level": "乙",
+        "benefit": "满额返券",
+        "summary": "会员等级乙：满额返券"
+      },
+      "catalog_ed2": {
+        "level": "乙",
+        "benefit": "满额返券",
+        "summary": "会员等级乙：满额返券"
+      },
+      "scope_ed1": {
+        "stores": ["南城店"],
+        "levels": ["乙"]
+      },
+      "scope_ed2": {
+        "stores": ["南城店"],
+        "levels": ["乙"]
+      },
+      "rule_ed1": "会员等级乙在南城店享满额返券，满300元返30元券",
+      "rule_ed2": "会员等级乙在南城店享满额返券，满300元返30元券",
+      "blank_ed1": [],
+      "blank_ed2": ["rule"]
+    },
+    {
+      "id": "member-c",
+      "name": "丙级折扣活动",
+      "group": "丙",
+      "catalog_ed1": {
+        "level": "丙",
+        "benefit": "折扣",
+        "summary": "会员等级丙：折扣"
+      },
+      "catalog_ed2": {
+        "level": "丙",
+        "benefit": "折扣",
+        "summary": "会员等级丙：折扣"
+      },
+      "scope_ed1": {
+        "stores": ["西城店", "南城店"],
+        "levels": ["丙"]
+      },
+      "scope_ed2": {
+        "stores": ["西城店"],
+        "levels": ["丙"]
+      },
+      "rule_ed1": "会员等级丙在西城店、南城店享折扣，全场95折",
+      "rule_ed2": "会员等级丙在西城店享折扣，全场95折",
+      "blank_ed1": [],
+      "blank_ed2": []
     }
   ]
 }
